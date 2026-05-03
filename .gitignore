@@ -9,4 +9,7 @@ coverage
 .env
 .env.local
 *.heapsnapshot
-*.json
+
+# Keep app.json
+!app.json
+package-lock.json
